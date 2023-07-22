@@ -4998,7 +4998,12 @@ Created using IcoMoon - icomoon.io
 .gallery .cc-porfolio-image figure {
   position: relative;
   overflow: hidden;
-  text-align: center; }
+  text-align: center; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .gallery .cc-porfolio-image figure img {
   position: relative;
